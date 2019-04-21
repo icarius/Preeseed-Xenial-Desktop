@@ -112,7 +112,7 @@ d-i user-setup/encrypt-home boolean false
 # Some extras
 ####################################################################
 tasksel tasksel/first multiselect ubuntu-desktop
-d-i pkgsel/include string build-essential cntlm curl git
+d-i pkgsel/include string wget build-essential cntlm curl git
 
 # installing languages
 # Language pack selection
