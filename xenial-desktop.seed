@@ -97,6 +97,7 @@ d-i ubiquity/only-show-installable-languages boolean true
 d-i passwd/root-login boolean false
 
 # Mortal User
+d-i passwd/make-user boolean true
 d-i passwd/user-fullname string dsit
 d-i passwd/username string dsi
 d-i passwd/user-password-crypted password $6$iMUfPIURxe$MpMm1OAwBuFb2cucNn/ewEbsrydNyxXna8jMWW.G3VXkjjXECBWaC8MN9dzH5GXcuGZUOWq/C5gBU0niJWoA/0
